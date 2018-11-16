@@ -1,0 +1,26 @@
+{
+  "name": "supe-wipchat",
+  "version": "0.1.0",
+  "description": "Supe Integration for WIP.chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akamaozu/supe-wipchat.git"
+  },
+  "keywords": [
+    "supe",
+    "citizen"
+  ],
+  "author": "akamaozu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akamaozu/supe-wipchat/issues"
+  },
+  "homepage": "https://github.com/Akamaozu/supe-wipchat#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
