@@ -2,7 +2,7 @@
   "name": "supe-wipchat",
   "version": "0.1.0",
   "description": "Supe Integration for WIP.chat",
-  "main": "index.js",
+  "main": "citizen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "supe",
-    "citizen"
+    "citizen",
+    "WIP.chat"
   ],
   "author": "akamaozu",
   "license": "MIT",
