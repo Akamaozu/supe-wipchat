@@ -1,6 +1,6 @@
 module.exports = function( task, config ){
 
-  require('./steps/get-viewer')( task );
+  require('../steps/get-viewer')( task );
 
   task.step( 'extract viewer user id', function(){
     var res = task.get( 'wipchat-api-response' ),
@@ -13,7 +13,7 @@ module.exports = function( task, config ){
   task.step( 'get viewer pending todos', function(){
     var viewer_user_id = task.get( 'wipchat-api-viewer-user-id' );
 
-    require( './steps/get-user-pending-todos' )( task, { user_id: viewer_user_id });
+    require( '../steps/get-user-pending-todos' )( task, { user_id: viewer_user_id });
     task.next();
   });
 }
